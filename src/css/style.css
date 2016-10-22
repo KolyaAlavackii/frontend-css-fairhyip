@@ -165,7 +165,7 @@ article.article p {
 /* тут начинается footer*/
 
 
-footer {
+.footer {
 	position: relative;
 	width: 1200px;
 	height: 136px;
@@ -173,7 +173,7 @@ footer {
 }
 
 
-footer div {
+.footer div {
 	font: 11px verdana,sans-serif;
     color: #F9DA5A;
     position: absolute;
@@ -191,7 +191,7 @@ footer div {
 }
 
 
-footer a {
+.footer a {
 	float: left;
     font: 11px verdana,sans-serif;
     color: #FFFFFF;
