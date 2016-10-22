@@ -1,0 +1,202 @@
+
+
+body {
+	width: 1200px;
+	margin: 0 auto;   
+}
+
+
+.wrapper {
+	width: 1200px;
+	background-image: url(../images/bg_body.jpg);
+}
+
+
+.header {
+	width: 1200px;
+	height: 200px;
+	position: relative;	
+}
+
+
+.lang-list {
+	float: left;
+	position: absolute;
+	left: 120px;
+	top: 40px;
+}
+
+
+.lang-list li {
+	float: left;
+	font: 11px verdana,sans-serif;
+	color: #E8D1A4;
+	padding: 0 5px 0 0;
+}
+
+
+.lang-list a {
+	color: #FFFFFF;
+}
+
+
+.auth {
+	position: absolute;
+	right: 120px;
+	top: 40px;
+}
+
+
+.auth-link_signin a {
+	font: 11px verdana,sans-serif;
+	color: #E8D1A4;
+	padding: 0 5px 0 0;
+}
+
+
+.auth-link a {
+	font: 11px verdana,sans-serif;
+	color: #FFFFFF;
+}
+
+
+.logo {
+	position: absolute;
+	left: 130px;
+	top: 65px;
+}
+
+
+nav.mainmenu {
+	width: 702px;
+	height: 39px;
+	float: left;
+	background-color: #F7F7F6;
+	position: absolute;
+	top: 120px;
+	left: 395px;
+	border: 2px solid #DAD7D5;
+	border-radius: 5px;
+}
+
+
+nav.mainmenu ul.menu-list li {
+	float: left;
+	padding: 12px 28px;
+	margin-right: 2px;
+}
+
+
+nav.mainmenu ul.menu-list a {
+	text-decoration: none;
+	font: 15px Georgia,serif;
+    color: #573223;
+    display: block;
+}
+
+/* конец блока header */
+
+
+.content {
+    width: 1200px;
+    height: 873px;
+}
+
+
+.promo {
+    width: 1000px;
+    height: 155px;
+    position: relative;
+    margin: 3px 100px 0 100px;
+    background-image: url(../images/bg_promo.png);
+    border-radius: 10px;
+}
+
+
+.promo h1 {
+    font: 22px Georgia,serif;
+    color: #ead4aa;
+    padding: 23px 0 14px 145px;
+}
+
+
+.promo p {
+	font: 14px Georgia,serif;
+	font-style: italic;
+	color: #F9DA5A;
+	line-height: 21px;
+	padding: 0 45px 30px 145px;
+}
+
+
+.gold {
+    position: absolute;
+    top: 31px;
+    left: 55px;
+}
+
+
+.article {
+	width: 1000px;
+	margin: 0 100px 0 120px;
+	position: relative;
+}
+
+
+.article img {
+	float: left; 
+}
+
+
+article.article h2 {
+	font: 18px Georgia,serif;
+	color: #FFF68D;
+	padding: 40px 0 18px 125px;
+}
+
+
+article.article p {
+	font: 11px verdana,sans-serif;
+	color: #D7CFC8;
+	padding: 0 65px 0 125px;
+}
+
+
+/* тут начинается footer*/
+
+
+footer {
+	position: relative;
+	background-image: url(../images/bg_body.jpg);
+	width: 1200px;
+	height: 136px;
+	border-top: 1px solid #C1A44D;
+}
+
+
+footer div {
+	font: 11px verdana,sans-serif;
+    color: #F9DA5A;
+    position: absolute;
+    left: 115px;
+    bottom: 23px;
+}
+
+
+.footermenu {
+	 width: 528px;
+    height: 11px;
+    position: absolute;
+    left: 560px;
+    bottom: 23px;
+}
+
+
+footer a {
+	float: left;
+    text-decoration: none;
+    font: 11px verdana,sans-serif;
+    color: #FFFFFF;
+    padding: 0 11px 0 0;
+}
+
