@@ -2,13 +2,13 @@
 
 body {
 	width: 1200px;
-	margin: 0 auto;   
+	margin: 0 auto;
+	background-image: url(../images/bg_body.jpg);
 }
 
 
 .wrapper {
 	width: 1200px;
-	background-image: url(../images/bg_body.jpg);
 }
 
 
@@ -167,7 +167,6 @@ article.article p {
 
 footer {
 	position: relative;
-	background-image: url(../images/bg_body.jpg);
 	width: 1200px;
 	height: 136px;
 	border-top: 1px solid #C1A44D;
@@ -194,7 +193,6 @@ footer div {
 
 footer a {
 	float: left;
-    text-decoration: none;
     font: 11px verdana,sans-serif;
     color: #FFFFFF;
     padding: 0 11px 0 0;
