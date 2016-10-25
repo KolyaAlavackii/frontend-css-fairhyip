@@ -27,11 +27,16 @@ body {
 }
 
 
-.lang-list li {
+.lang-item {
 	float: left;
 	font: 11px verdana,sans-serif;
 	color: #E8D1A4;
 	padding: 0 5px 0 0;
+}
+
+
+.lang-item:nth-of-type(1n+2):before{
+        content: " | ";
 }
 
 
@@ -46,17 +51,19 @@ body {
 	top: 40px;
 }
 
-
-.auth-link_signin a {
-	font: 11px verdana,sans-serif;
-	color: #E8D1A4;
-	padding: 0 5px 0 0;
-}
-
-
 .auth-link a {
 	font: 11px verdana,sans-serif;
 	color: #FFFFFF;
+}
+
+.auth-link:nth-of-type(1n+2):before{
+        content: " | ";
+        color: #fff;
+}
+
+
+.signin a {
+	color: #E8D1A4;
 }
 
 
@@ -67,7 +74,7 @@ body {
 }
 
 
-nav.mainmenu {
+.mainmenu {
 	width: 702px;
 	height: 39px;
 	float: left;
@@ -80,18 +87,22 @@ nav.mainmenu {
 }
 
 
-nav.mainmenu ul.menu-list li {
+.mainmenu .menu-item {
 	float: left;
 	padding: 12px 28px;
 	margin-right: 2px;
 }
 
 
-nav.mainmenu ul.menu-list a {
+.mainmenu .menu-list a {
 	text-decoration: none;
 	font: 15px Georgia,serif;
     color: #573223;
     display: block;
+}
+
+.active {
+	background: url(../images/bg_menu-item-active.png);
 }
 
 /* конец блока header */
@@ -108,7 +119,7 @@ nav.mainmenu ul.menu-list a {
     height: 155px;
     position: relative;
     margin: 3px 100px 0 100px;
-    background-image: url(../images/bg_promo.png);
+     background: url(../images/bg_about.png) 5% no-repeat, url(../images/bg_promo.png) repeat;
     border-radius: 10px;
 }
 
@@ -129,13 +140,6 @@ nav.mainmenu ul.menu-list a {
 }
 
 
-.gold {
-    position: absolute;
-    top: 31px;
-    left: 55px;
-}
-
-
 .article {
 	width: 1000px;
 	margin: 0 100px 0 120px;
@@ -145,6 +149,8 @@ nav.mainmenu ul.menu-list a {
 
 .article img {
 	float: left; 
+	position: relative;
+	bottom: 20px;
 }
 
 
@@ -191,7 +197,7 @@ article.article p {
 }
 
 
-.footer a {
+.footermenu a {
 	float: left;
     font: 11px verdana,sans-serif;
     color: #FFFFFF;
