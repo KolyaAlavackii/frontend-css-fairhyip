@@ -28,16 +28,24 @@ body {
 
 
 .lang-item {
+	position: relative;
 	float: left;
 	font: 11px verdana,sans-serif;
 	color: #E8D1A4;
-	padding: 0 5px 0 0;
+	margin-right: 16px;
 }
 
 
-.lang-item:nth-of-type(1n+2):before{
-        content: " | ";
-	color: #FFFFFF;
+.lang-item::before{
+    content: " | ";
+    position: absolute;
+    left: -12px;
+    top:0;
+	color: #E8D1A4;
+}
+
+.lang-item:first-child::before{
+	display: none;
 }
 
 
@@ -57,11 +65,22 @@ body {
 	color: #FFFFFF;
 }
 
-.auth-link:nth-of-type(1n+2):before{
-        content: " | ";
-        color: #FFFFFF;
+.auth-link {
+	position: relative;
+	margin-right: 16px;
 }
 
+.auth-link::before{
+       content: " | ";
+    position: absolute;
+    left: -12px;
+    top:0;
+	color: #FFFFFF;
+}
+
+.auth-link:first-child::before{
+	display: none;
+}
 
 .signin a {
 	color: #E8D1A4;
